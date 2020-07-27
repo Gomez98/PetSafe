@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetSafe</title>
+    <link rel="icon" type="image/png" href="images/icon-petsafe.png" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo logo_main">PetSafe-UTP</div>
+
+        <div class="nav">
+            <div class="wrap">
+                <div class="logo logo_small">PetSafe-UTP</div>
+                <nav class="menu">
+                    <ul>
+                        <li><a class="link" href="#inicio">Inicio</a></li>
+                        <li><a class="link" href="#nosotros">Nosotros</a></li>
+                        <li><a class="link" href="#servicios">Servicios</a></li>
+                        <li><a class="link" href="#consejos">Consejos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="logIn.html">Log in</a></li>
+                        <li><a href="intranetLog.html">Intranet</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Clinica Veterinaria</h1>
+            <h4>Cuidamos a su mascota con amor</h4>
+        </div>
+    </section>
+
+    <section id="nosotros" class="us">
+
+        <article class="us-description">
+            <h2 class="us-tittle">Quienes somos</h2>
+            <article class="us-info">
+                <p>Nuestra <strong>clínica veterinaria, PetSafe-UTP,</strong> es un proyecto diseñado por alumnos de
+                    la universidad UTP ubicada en el distrito de San Juan de Lurigancho quienes pretenden dar solución
+                    a la falta de capacidad numerica en cuanto a la antención de veterinarias</p>
+                <a id="vermas1" onclick="vermas('uno','vermas1')" style="text-decoration:underline;">Ver más</a>
+                <div id="uno" style="display: none;">
+
+                    <p>En <strong>PetSafe-UTP,</strong> tenemos como objetivo atender a nuestras mascotas sin importar
+                        la
+                        hora,
+                        poder ser trasparente en cuanto a reservas de atención, puedan tener el seguimiento de sus
+                        mascotas
+                        en nuestra pagina,
+                        obtener la confianza de nuestra atencion medica y poder visualizar el horario de nuestros
+                        medicos en
+                        turno
+                        como tambien sus logros y experiencia en el area. </p>
+                    <p>Además, brindamos servicios veterinarios especializados como dermatología, cardiología,
+                        traumatología,
+                        odontología, entre otros.</p>
+                </div>
+            </article>
+        </article>
+        <figure class="us-imageContainer">
+            <img class="us-image" src="images/gato-patos.jpg" />
+        </figure>
+    </section>
+
+    <section id="servicios" class="services">
+        <h2 class="services-tittle">Servicios</h2>
+
+        <section class="services-medic">
+            <section class="services-medic-description">
+                <h3 class="services-medic-tittle">Atención médica</h3>
+
+                <p>Tenga la mejor salud para sus mascotas. Doctores con colegiatura atenderan con todo el amor del
+                    muno
+                    a sus pequeños.
+                </p>
+                <p>
+                    En la clínica PetSafe el horario de atención clínica es desde las 8:00 am hasta las 7:00 pm.
+                    Las mascotas que se quedan a recibir algún tipo de tratamiento se puede quedar en nuestra area
+                    de juegos caninos
+                </p>
+                <a id="vermas2" onclick="vermas('dos','vermas2')" style="text-decoration:underline;">Ver más</a>
+                <div id="dos" style="display: none;">
+
+                    <p>
+                        El area de juegos se encuentra muy bien equipado y contiene prevenciones de limpieza, para
+                        que
+                        se despreocupe
+                        de la higiene que puede generar su pequeño.
+                    </p>
+                    <p>
+                        Recordar que deben dejar su alimento si se va a quedar por más de 4 horas. Se recomienda
+                        traer
+                        alimentos desde
+                        hogar.
+                    </p>
+                </div>
+            </section>
+            <figure class="services-medicImageContainer">
+                <img class="services-medicImage" src="images/perro-medico.jpg" width="800" height="500"
+                    alt="no muestra imagen">
+            </figure>
+        </section>
+
+        <section class="services-hygiene">
+            <section class="services-hygiene-description">
+                <h3 class="services-hygiene-tittle">Atención higiénica</h3>
+                <p>
+                    Mantenga limpio y libre de enfermedades dermatologicas a su mascota con nuestros baños medicados.
+                    También, contamos con los mejores estilistas de perros que haran a sus mascotas más lindos de lo
+                    que ya son.
+                </p>
+                <a id="vermas3" onclick="vermas('tres','vermas3')" style="text-decoration:underline;">Ver más</a>
+                <div id="tres" style="display: none;">
+                    <p>
+                        Los precios varian según el tamaño de sus mascotas. Estas variaciones ocurren cuando se utiliza
+                        shampoo medicado, ya que al ser más grandes se necesita más shampoo.
+                    </p>
+                    <p>
+                        Contamos con agua temperada y el horario de atención de los baños es desde las 7:00 am hasta las
+                        8:00 pm. Traer correa si su mascota es un gruñon 😁, para mayor seguridad.
+                    </p>
+                </div>
+            </section>
+            <figure class="services-hygieneImageContainer">
+                <img class="services-hygieneImage" src="images/baño-perro.jpg" width="800" height="500"
+                    alt="no muestra imagen">
+            </figure>
+        </section>
+
+        <section class="services-products">
+            <h3 class="services-products-tittle">Venta de productos</h3>
+            <figure class="services-productsImageContainer">
+                <img class="imgpro" src="images/arena-gato.jpeg" alt="no muestra imagen">
+                <img class="imgpro" src="images/comida-mascota.jpg" alt="no muestra imagen">
+                <img class="imgpro" src="images/juguetes.jpg" alt="no muestra imagen">
+                <img class="imgpro" src="images/kennel-mascota.jpg" alt="no muestra imagen">
+                <img class="imgpro" src="images/medicamento-mascota.jpg" alt="no muestra imagen">
+                <img class="imgpro" src="images/vitamina-mascota.jpg" alt="no muestra imagen">
+            </figure>
+
+        </section>
+
+    </section>
+
+    <section id="consejos" class="advices">
+        <h2 class="advices-tittle">Consejos</h2>
+
+        <div class="advices-videoContainer">
+            <iframe class="advices-video" src="https://www.youtube.com/embed/VCuHPRfP-XI" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <i class="fas fa-ellipsis-v btn-menu"></i>
+
+    <footer class="footer">&copy all rights reserved</footer>
+
+    <!--Scripts  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>-->
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

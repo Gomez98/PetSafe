@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="css/estilosLogin.css">
+    <title>Intranet</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo logo_main">PetSafe-UTP</div>
+
+        <div class="nav">
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html" style="text-decoration: none;">Inicio</a></li>
+                    <li><a href="logIn.html" style="text-decoration: none;">Log in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="login">
+        <form class="formulario" method="post" action="intranetLog.php">
+
+            <label for="usuario">Usuario:</label>
+            <input id="usuario" name="usuario" placeholder="Usuario" required>
+
+            <label for="contraseña">Contraseña:</label>
+            <input id="contraseña" name="contraseña" type="password" placeholder="Contraseña" required>
+
+            <input id="submit" name="submit" type="submit" class="btn btn-info" style="margin: 2rem 0;" value="Ingresar">
+
+        </form>
+    </section>
+
+    <i class="fas fa-ellipsis-v btn-menu"></i>
+    <footer class="footer">&copy all rights reserved</footer>
+
+
+</body>
+
+</html>

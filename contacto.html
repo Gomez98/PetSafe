@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Contacto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/estilosContacto.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo logo_main">PetSafe-UTP</div>
+
+        <div class="nav">
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="logIn.html">Log in</a></li>
+                    <li><a href="intranetlog.html">Intranet</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contacto">
+        <form class ="formulario"method="post" action="contacto.php">
+
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" name="nombre" placeholder="Nombre completo" required>
+
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" placeholder="ejemplo@email.com" required>
+
+            <label for="fechanac">Fecha de Nacimiento:</label>
+            <input type="date" name="fechanac">
+
+            <div class="radio">
+                <h4>Selecciona tu genero:</h4>
+ 
+				<input type="radio" name="sexo" id="hombre" value="1">
+				<label for="hombre">Hombre</label>
+		
+				<input type="radio" name="sexo" id="mujer" value="2">
+				<label for="mujer">Mujer</label>
+		
+				<input type="radio" name="sexo" id="na" value="3">
+				<label for="na">N/A</label>
+			</div>
+		
+			<div class="checkbox">
+				<h4>¿Que idioma hablas?</h4>
+				<input type="checkbox" name="idioma[]" id="checkbox1" value="1">
+				<label for="checkbox1">Español</label>
+		
+				<input type="checkbox" name="idioma[]" id="checkbox2" value="2">
+                <label for="checkbox2">Inglés</label>
+                
+                <input type="checkbox" name="idioma[]" id="checkbox3" value="3">
+				<label for="checkbox3">Portugués</label>
+			</div>
+          
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje" required></textarea>
+
+            <input id="submit" name="submit" type="submit" value="Enviar">
+        
+        </form>
+    </section>
+    <i class="fas fa-ellipsis-v btn-menu"></i>
+    <footer>&copy all rights reserved</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+.mensaje , .mensaje-detalle {
+    text-align: center;  
+}
+table{
+	font-size: 1.5rem;
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+    width: 80%;
+	margin: 20px auto;
+}
+
+.tablaScroll{
+	overflow: scroll;
+	height:400px;
+}
+thead{
+	background-color: #369681;
+	color: white;
+}
+th, td{
+	padding: 2%;
+	margin: auto;
+}
+.btn{
+	padding: 0.5rem;
+	margin: 0.5rem;
+	font-size: 1.5rem;
+}
+td{
+	padding: 0;
+	font-size: 2rem;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
+@media screen and (max-width: 1025px){
+
+}
+
+@media screen and (max-width: 769px){
+	th{
+		padding: 1rem;
+		margin: 1rem;
+		font-size: 1rem;
+	}
+	td{
+		font-size: 1.2rem;
+
+	}
+	.btn{
+		padding: 0.5rem;
+		margin: 0.5rem;
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (max-width: 426px){
+	a{
+		font-size: 1.5rem;
+	}
+	nav a{
+		padding: 1rem;
+	}
+	th{
+		padding: 0.5rem 0.3rem;
+		font-size: 0.9rem;
+		margin: 0;
+	}
+	td{
+		font-size: 1.2rem;
+		padding: 0.1rem;
+	}
+	.btn{
+		padding: 0.5rem;
+		margin: 0.5rem;
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (max-width: 376px){
+	a{
+		font-size: 1.5rem;
+	}
+	nav a{
+		padding: 0.5rem;
+	}
+	th{
+		padding: 0.4rem 0.1rem;
+		font-size: 0.8rem;
+		margin: 0;
+	}
+	td{
+		font-size: 1rem;
+		padding: 0.1rem;
+	}
+	.btn{
+		padding: 0.4rem;
+		margin: 0.3rem;
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 321px){
+	a{
+		font-size: 1.4rem;
+	}
+	nav a{
+		padding: 0.4rem;
+	}
+	th{
+		padding: 0.3rem 0.1rem;
+		font-size: 0.7rem;
+		margin: 0;
+	}
+	td{
+		font-size: 0.9rem;
+		padding: 0.1rem;
+	}
+	.btn{
+		padding: 0.3rem;
+		margin: 0.2rem;
+		font-size: 1rem;
+	}
+	.tablaScroll{
+		overflow: scroll;
+		height:200px;
+	}
+}
